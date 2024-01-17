@@ -1,7 +1,7 @@
 ---
 plugin: netbox.netbox.nb_inventory
 api_endpoint: https://netbox.intertic.com.ar
-token: e6b8020fb8989adcd3f77d2cd5d332fe26fd5882
+token: e01eb68435267442ad81e06bc43d2915fd0cdba3
 validate_certs: false
 config_context: false
 ansible_connection: network_cli
