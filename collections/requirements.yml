@@ -1,7 +1,0 @@
----
-collections:
-
-# Install netbox collection from Ansible Galaxy.
-- name: netbox.netbox
-  version: ">=3.16.0"
-  source: https://galaxy.ansible.comsh-5.1$
