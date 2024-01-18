@@ -1,0 +1,19 @@
+---
+plugin: netbox.netbox.nb_inventory
+api_endpoint: https://netbox.intertic.com.ar
+token: e01eb68435267442ad81e06bc43d2915fd0cdba3
+validate_certs: false
+config_context: false
+ansible_connection: network_cli
+group_by:
+ - device_roles
+device_query_filters:
+ - has_primary_ip: 'true'
+
+# has_primary_ip is a useful way to filter out patch panels and other passive devices
+
+# Query filters are passed directly as an argument to the fetching queries.
+# You can repeat tags in the query string.
+
+query_filters:
+ - role: firewall
