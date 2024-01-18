@@ -8,7 +8,7 @@ ansible_connection: network_cli
 group_by:
  - device_roles
 device_query_filters:
- - tenants: 'tuculoentanga'
+ #- tenants: 'tuculoentanga'
  - has_primary_ip: 'true'
 
 # has_primary_ip is a useful way to filter out patch panels and other passive devices
@@ -17,6 +17,6 @@ device_query_filters:
 # You can repeat tags in the query string.
 
 query_filters:
- - tenants: 'tuculoentanga'
+ #- tenants: 'tuculoentanga'
  - role: firewall
  - tag: oxidized
