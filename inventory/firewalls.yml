@@ -17,4 +17,4 @@ device_query_filters:
 
 query_filters:
  - role: firewall
- - tag: oxidized
+ #- tag: oxidized
