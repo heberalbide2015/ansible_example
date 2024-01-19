@@ -1,8 +1,6 @@
 ---
 # Primer ejemplo de Playbook en Ansible
 - hosts: all
-- become: yes
-- become_user: root
-  tasks:
+tasks:
   - name: Hacer ping
     ping:
