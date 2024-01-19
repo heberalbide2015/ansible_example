@@ -1,4 +1,4 @@
-3---
+---
 plugin: netbox.netbox.nb_inventory
 api_endpoint: https://netbox.intertic.com.ar
 token: e01eb68435267442ad81e06bc43d2915fd0cdba3
